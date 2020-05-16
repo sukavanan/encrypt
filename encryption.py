@@ -12,7 +12,7 @@ import math
 # In[2]:
 
 
-string = "shree"
+string = "qwerty"
 bin = ''.join(format(ord(x), 'b').zfill(8) for x in string)
 len(bin)
 
